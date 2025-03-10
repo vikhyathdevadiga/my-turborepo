@@ -12,8 +12,8 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3
       turbo:
-        specifier: ^2.4.5-canary.2
-        version: 2.4.5-canary.2
+        specifier: ^2.4.4
+        version: 2.4.4
       typescript:
         specifier: 5.8.2
         version: 5.8.2
@@ -871,6 +871,7 @@ packages:
 
   eslint-config-prettier@10.0.2:
     resolution: {integrity: sha512-1105/17ZIMjmCOJOPNfVdbXafLCLj3hPmkmB7dLgt7XsQ/zkxSuDerE/xgO3RxoHysR1N1whmquY0lSn2O0VLg==}
+    hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
 
@@ -911,6 +912,7 @@ packages:
   eslint@9.21.0:
     resolution: {integrity: sha512-KjeihdFqTPhOMXTt7StsDxriV4n66ueuF/jfPNC3j/lduHwr/ijDwJMsF+wyMJethgiKi5wniIE243vi07d3pg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    hasBin: true
     peerDependencies:
       jiti: '*'
     peerDependenciesMeta:
@@ -1439,6 +1441,7 @@ packages:
   next@15.2.1:
     resolution: {integrity: sha512-zxbsdQv3OqWXybK5tMkPCBKyhIz63RstJ+NvlfkaLMc/m5MwXgz2e92k+hSKcyBpyADhMk2C31RIiaDjUZae7g==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
+    hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
       '@playwright/test': ^1.41.2
@@ -1903,6 +1906,7 @@ packages:
 
   ts-node@10.9.2:
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
+    hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
       '@swc/wasm': '>=1.2.50'
@@ -1925,18 +1929,8 @@ packages:
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-64@2.4.5-canary.2:
-    resolution: {integrity: sha512-TMXbJAvFusb61b5voviRFz6wFR05smXvAOTzsp3wniGvhZrt8oh7iE44aTtVluDTiSPDBNVuUXNraY8IJ+BsTg==}
-    cpu: [x64]
-    os: [darwin]
-
   turbo-darwin-arm64@2.4.4:
     resolution: {integrity: sha512-/gtHPqbGQXDFhrmy+Q/MFW2HUTUlThJ97WLLSe4bxkDrKHecDYhAjbZ4rN3MM93RV9STQb3Tqy4pZBtsd4DfCw==}
-    cpu: [arm64]
-    os: [darwin]
-
-  turbo-darwin-arm64@2.4.5-canary.2:
-    resolution: {integrity: sha512-+rPNTjmO7v+hiQfh1jKSJdrUd6aqmacviovwpK+1wFtSoZDmbzcr1hp8lMph5JCCNZJG8SIxNdeF9xASHtQ0lw==}
     cpu: [arm64]
     os: [darwin]
 
@@ -1945,18 +1939,8 @@ packages:
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-64@2.4.5-canary.2:
-    resolution: {integrity: sha512-fo3TSm1ik8sZp1FYoVkjRv7Jm8fIqFshaAZnsPcTUIWvtk/pxg+HyVVAlv0JFStoBx/cZ/P6sT25RC5gQiKvog==}
-    cpu: [x64]
-    os: [linux]
-
   turbo-linux-arm64@2.4.4:
     resolution: {integrity: sha512-COXXwzRd3vslQIfJhXUklgEqlwq35uFUZ7hnN+AUyXx7hUOLIiD5NblL+ETrHnhY4TzWszrbwUMfe2BYWtaPQg==}
-    cpu: [arm64]
-    os: [linux]
-
-  turbo-linux-arm64@2.4.5-canary.2:
-    resolution: {integrity: sha512-SuG5IUG03OOjk//t4aVf5IoE7Igmxop6s8vNLtz1rzkJGRBNWWkSPAcvcVnDJ9VVWRdtq3V6WlH78K6t/GznCA==}
     cpu: [arm64]
     os: [linux]
 
@@ -1965,27 +1949,13 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-64@2.4.5-canary.2:
-    resolution: {integrity: sha512-JdVTCWXnGiOL7vzSc5QO6h9mFbhR/WrpYlb/PFdRxKNiQWIRUFFOwEslP8y5vfzvXiJl7uVBWQ35ORVUnSCr3g==}
-    cpu: [x64]
-    os: [win32]
-
   turbo-windows-arm64@2.4.4:
     resolution: {integrity: sha512-403sqp9t5sx6YGEC32IfZTVWkRAixOQomGYB8kEc6ZD+//LirSxzeCHCnM8EmSXw7l57U1G+Fb0kxgTcKPU/Lg==}
     cpu: [arm64]
     os: [win32]
 
-  turbo-windows-arm64@2.4.5-canary.2:
-    resolution: {integrity: sha512-hM23aBoiDPqx0FWBq9/V4LmkFhgVIism9ImXUS7ZsydCgb3AtEZKfeZn+Zcrn1jL6dMqNdNebeqiC6zb0UXEsw==}
-    cpu: [arm64]
-    os: [win32]
-
   turbo@2.4.4:
     resolution: {integrity: sha512-N9FDOVaY3yz0YCOhYIgOGYad7+m2ptvinXygw27WPLQvcZDl3+0Sa77KGVlLSiuPDChOUEnTKE9VJwLSi9BPGQ==}
-    hasBin: true
-
-  turbo@2.4.5-canary.2:
-    resolution: {integrity: sha512-PrsONV6gaHhnxGiM38vm+46sNtOqs67X2Px83S+yZ1yM9x3iaDDV+zdcrGIHHOp61QglSxzHPHCPibCOHM6Hpw==}
     hasBin: true
 
   type-check@0.4.0:
@@ -4197,37 +4167,19 @@ snapshots:
   turbo-darwin-64@2.4.4:
     optional: true
 
-  turbo-darwin-64@2.4.5-canary.2:
-    optional: true
-
   turbo-darwin-arm64@2.4.4:
-    optional: true
-
-  turbo-darwin-arm64@2.4.5-canary.2:
     optional: true
 
   turbo-linux-64@2.4.4:
     optional: true
 
-  turbo-linux-64@2.4.5-canary.2:
-    optional: true
-
   turbo-linux-arm64@2.4.4:
-    optional: true
-
-  turbo-linux-arm64@2.4.5-canary.2:
     optional: true
 
   turbo-windows-64@2.4.4:
     optional: true
 
-  turbo-windows-64@2.4.5-canary.2:
-    optional: true
-
   turbo-windows-arm64@2.4.4:
-    optional: true
-
-  turbo-windows-arm64@2.4.5-canary.2:
     optional: true
 
   turbo@2.4.4:
@@ -4238,15 +4190,6 @@ snapshots:
       turbo-linux-arm64: 2.4.4
       turbo-windows-64: 2.4.4
       turbo-windows-arm64: 2.4.4
-
-  turbo@2.4.5-canary.2:
-    optionalDependencies:
-      turbo-darwin-64: 2.4.5-canary.2
-      turbo-darwin-arm64: 2.4.5-canary.2
-      turbo-linux-64: 2.4.5-canary.2
-      turbo-linux-arm64: 2.4.5-canary.2
-      turbo-windows-64: 2.4.5-canary.2
-      turbo-windows-arm64: 2.4.5-canary.2
 
   type-check@0.4.0:
     dependencies:
