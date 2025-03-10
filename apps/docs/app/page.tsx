@@ -36,7 +36,7 @@ export default function Home() {
             Get started by editing <code>apps/docs/app/page.tsx</code>
           </li>
           <li>Save and see your changes instantly.</li>
-          <h1>Updating DOCS again!!!!</h1>
+          <h1>Updating DOCS again!!!!!!!</h1>
         </ol>
 
         <div className={styles.ctas}>
