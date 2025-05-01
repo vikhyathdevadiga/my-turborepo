@@ -9,10 +9,12 @@
     "logrocket:sourcemaps": "logrocket release $VERCEL_GIT_COMMIT_SHA --apikey=\"$LOG_ROCKET_API_KEY\" && logrocket upload .next/static/ --release=$VERCEL_GIT_COMMIT_SHA --apikey=\"$LOG_ROCKET_API_KEY\" --url-prefix=\"~/_next/static/\" && find .next/ -type f -name \"*.map\" -exec rm -f {} +",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "logrocket-cli": "^0.15.0"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
+    "logrocket-cli": "^0.15.0",
     "next": "^15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
