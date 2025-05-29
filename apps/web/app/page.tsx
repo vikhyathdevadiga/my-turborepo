@@ -24,8 +24,8 @@ export default function Home() {
       <main className={styles.main}>
         <ThemeImage
           className={styles.logo}
-          srcLight="turborepo-dark.svg"
-          srcDark="turborepo-light.svg"
+          srcLight="window.svg"
+          srcDark="file-text.svg"
           alt="Turborepo logo"
           width={180}
           height={38}
